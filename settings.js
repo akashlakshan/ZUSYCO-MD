@@ -16,13 +16,13 @@ Creator : @darkmakerofc , @mr-nima-x
 */
 
 module.exports = {
-  OWNER_NUMBER: "94715166712",
-  SUDO_NUMBERS : "94715166712,94719574492",
-  OWNER_NAME: "『 𝙼𝚁 𝙽𝙸𝙼𝙰 』",
-  BOT_NAME : "ＺＵＳＹＣＯ",
+  OWNER_NUMBER: "94762724515",
+  SUDO_NUMBERS : "94770258268,94776364563",
+  OWNER_NAME: "𝘼𝙠𝙖𝙨𝙝 𝙇𝙖𝙠𝙨𝙝𝙖𝙣 𝟮𝟬𝟮𝟰 🇱🇰",
+  BOT_NAME : "𝘼𝙠𝙖𝙨𝙝 𝙇𝙖𝙠𝙨𝙝𝙖𝙣 𝟮𝟬𝟮𝟰 🇱🇰",
   ZUSYCO_FILE : "ZUSYCO-QR",
   LOGOS: {
-    ALIVE: 'https://i.ibb.co/YTWznr9/ZUSYCO-ALIVE-IMAGE-LOWQ.jpg',
+    ALIVE: 'https://telegra.ph/file/703874d2c008888a299bb.jpg',
     WELCOME: 'https://i.ibb.co/PzhpBV7/WELCOME-IMAGE-LOWQ.jpg',
     GOODBYE: 'https://i.ibb.co/t8hKpcM/GOODBYE-IMAGE-LOWQ.jpg'
   },
@@ -33,10 +33,10 @@ module.exports = {
   DESABLE_WELCOME_GOODBYE_JIDS : [],
   TIME_ZONE :  "Asia/Colombo",
   WORK_TYPE : "public",
-  WORK_MODE : "onlygroups",
+  WORK_MODE : "onlyinbox",
   WORK_MODE_MESSAGE_SEND : false,
-  CAPTION : '© ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ᴢᴜꜱʏᴄᴏ ᴍᴅ ʙᴏᴛ',
-  STICKER_PACK : '[ ZUSYCO ]',
+  CAPTION : '𝘼𝙠𝙖𝙨𝙝 𝙇𝙖𝙠𝙨𝙝𝙖𝙣 𝟮𝟬𝟮𝟰 🇱🇰',
+  STICKER_PACK : '𝘼𝙠𝙖𝙨𝙝 𝙇𝙖𝙠𝙨𝙝𝙖𝙣 𝟮𝟬𝟮𝟰 🇱🇰',
   BAD_WORDS : 'fuck,pussy',
   ANTI_BAD : false,
   ANTI_LINKS : 'chat.whatsapp.com',
@@ -48,8 +48,8 @@ module.exports = {
         NOT_WORKING : false,
   },
   READ : {
-     ALL_MESSAGES : true,
-     ONLY_COMMANDS : false,
+     ALL_MESSAGES : false ,
+     ONLY_COMMANDS : true ,
      STATUS : false,
   },
   BOT_OFFLINE : false,
@@ -78,6 +78,6 @@ module.exports = {
     "agei" : "https://i.ibb.co/yqk8QQ9/agei.webp",
     "ne" : "https://i.ibb.co/N6Wb6mZ/ne.webp",
   },
-  LOAD_ANIMATION : false,
+  LOAD_ANIMATION : true ,
  
 };
